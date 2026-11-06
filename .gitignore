@@ -1,0 +1,16 @@
+# KiCad lock files, local state and backups
+~*.lck
+*.kicad_prl
+*.bak
+.history/
+*-backups/
+fp-info-cache
+_autosave-*
+
+# Generated outputs (re-create from the design files)
+gerbers/
+assembly/
+*.zip
+*.step
+*-schematic.pdf
+*-board.pdf
